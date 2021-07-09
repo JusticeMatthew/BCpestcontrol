@@ -1,11 +1,10 @@
 import React from 'react';
-
-import Header from './components/Header'
+import TopLogo from './components/TopLogo';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className='App'>
+      <TopLogo />
     </div>
   );
 }
