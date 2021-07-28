@@ -1,15 +1,12 @@
 import React from 'react';
 
+import logo from '../assets/logo-top.png';
+
 export default function TopLogo() {
   return (
-    <div className='bg-dark flex justify-center w-full items-center p-6'>
-      <div className='flex justify-between items-center w-3/4'>
-        <h1 className='text-orange text-7xl'>
-          B&C <span className='text-white'>Pest Control</span>
-        </h1>
-        <h2 className='text-white text-2xl text-center'>
-          Find us on: Insert links here
-        </h2>
+    <div className='bg-dark flex justify-center w-full items-center'>
+      <div className='flex justify-center items-center'>
+        <img src={logo} alt='bcpestcontrol-logo' className='h-72 w=full'></img>
       </div>
     </div>
   );

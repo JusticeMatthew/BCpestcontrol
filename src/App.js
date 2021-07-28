@@ -11,13 +11,15 @@ function App() {
     <div className='App'>
       <TopLogo />
       <NavBar />
-      <About />
-      <br />
-      <ServiceArea />
-      <br />
-      <Reviews />
-      <br />
-      <Contact />
+      <div className='sections flex flex-col justify-evenly items-center'>
+        <About />
+        <br />
+        <ServiceArea />
+        <br />
+        <Reviews />
+        <br />
+        <Contact />
+      </div>
     </div>
   );
 }

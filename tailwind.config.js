@@ -5,8 +5,8 @@ module.exports = {
     extend: {
       colors: {
         dark: '#303030',
-        orange: '#DE7300',
-        light: '#808080',
+        logo: '#f6921e',
+        light: '#f1f1f1',
       },
     },
   },

@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-  background-image: url('./assets/chruch.png');
+  background: '#f1f1f1';
   font-family: 'Poppins', sans-serif;
 }

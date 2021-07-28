@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 export default function TopLogo() {
   return (
-    <div className='bg-dark flex justify-center w-full items-center'>
+    <div className='bg-dark flex justify-center w-full items-center mb-12'>
       <div className='flex justify-evenly items-center w-3/4'>
-        <ul className='flex justify-around text-white'>
+        <ul className='flex justify-around text-light text-xl'>
           <NavItem>About Us</NavItem>
           <NavItem>Service Area</NavItem>
           <NavItem>Reviews</NavItem>
@@ -22,7 +22,7 @@ const NavItem = styled.li`
   padding: 16px;
 
   &:hover {
-    color: #de7300;
-    border-bottom: 3px solid #de7300;
+    color: #f6921e;
+    border-bottom: 3px solid #f6921e;
   }
 `;
