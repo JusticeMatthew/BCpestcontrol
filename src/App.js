@@ -5,13 +5,14 @@ import About from './components/About';
 import ServiceArea from './components/ServiceArea';
 import Reviews from './components/Reviews';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className='App'>
       <TopLogo />
-      <NavBar />
       <div className='sections flex flex-col justify-evenly items-center'>
+        <NavBar />
         <About />
         <br />
         <ServiceArea />
@@ -20,6 +21,7 @@ function App() {
         <br />
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 }

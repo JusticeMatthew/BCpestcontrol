@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import { Link, Events, animateScroll as scroll } from 'react-scroll';
+import { Link, Events } from 'react-scroll';
 
 export default function TopLogo() {
   useEffect(() => {
@@ -14,24 +14,57 @@ export default function TopLogo() {
   }, []);
 
   return (
-    <div className='bg-dark flex justify-center w-full items-center mb-12'>
+    <div className='bg-dark flex justify-center w-full items-center fixed top-0'>
       <div className='flex justify-evenly items-center w-3/4'>
-        <ul className='flex justify-around text-light text-xl'>
-          <NavItem>About Us</NavItem>
-          <NavItem className='SA'>
+        <ul className='flex justify-around text-light text-center text-xl'>
+          <NavItem tabIndex='0'>
             <Link
               activeClass='active'
-              to='SA'
+              to='aboutUs'
               spy={true}
               smooth={true}
-              duration={1000}
-              offset={500}
+              duration={800}
+              offset={-100}
+            >
+              About Us
+            </Link>
+          </NavItem>
+          <NavItem tabIndex='0'>
+            <Link
+              activeClass='active'
+              to='serviceArea'
+              spy={true}
+              smooth={true}
+              duration={800}
+              offset={-100}
             >
               Service Area
             </Link>
           </NavItem>
-          <NavItem>Reviews</NavItem>
-          <NavItem>Contact Us</NavItem>
+          <NavItem tabIndex='0'>
+            <Link
+              activeClass='active'
+              to='reviews'
+              spy={true}
+              smooth={true}
+              duration={800}
+              offset={-100}
+            >
+              Reviews
+            </Link>
+          </NavItem>
+          <NavItem tabIndex='0'>
+            <Link
+              activeClass='active'
+              to='contact'
+              spy={true}
+              smooth={true}
+              duration={800}
+              offset={-100}
+            >
+              Contact Us
+            </Link>
+          </NavItem>
         </ul>
       </div>
     </div>
@@ -44,6 +77,11 @@ const NavItem = styled.li`
   padding: 16px;
 
   &:hover {
+    color: #f6921e;
+    border-bottom: 3px solid #f6921e;
+  }
+
+  &:focus {
     color: #f6921e;
     border-bottom: 3px solid #f6921e;
   }
