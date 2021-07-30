@@ -7,7 +7,7 @@ export default function Reviews() {
       id='reviews'
       className='w-1/2 text-center text-light bg-dark m-6 p-6 rounded-2xl flex flex-col justify-center items-center'
     >
-      <h1 className='text-2xl text-center text-logo border-b-2 border-logo w-2/3'>
+      <h1 className='font-medium text-3xl text-center text-logo border-b-2 border-logo w-2/3'>
         Customer Reviews
       </h1>
       <br />

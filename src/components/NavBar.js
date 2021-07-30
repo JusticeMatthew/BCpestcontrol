@@ -17,54 +17,46 @@ export default function TopLogo() {
     <div className='bg-dark flex justify-center w-full items-center fixed top-0'>
       <div className='flex justify-evenly items-center w-3/4'>
         <ul className='flex justify-around text-light text-center text-xl'>
-          <NavItem tabIndex='0'>
-            <Link
-              activeClass='active'
-              to='aboutUs'
-              spy={true}
-              smooth={true}
-              duration={800}
-              offset={-100}
-            >
-              About Us
-            </Link>
-          </NavItem>
-          <NavItem tabIndex='0'>
-            <Link
-              activeClass='active'
-              to='serviceArea'
-              spy={true}
-              smooth={true}
-              duration={800}
-              offset={-100}
-            >
-              Service Area
-            </Link>
-          </NavItem>
-          <NavItem tabIndex='0'>
-            <Link
-              activeClass='active'
-              to='reviews'
-              spy={true}
-              smooth={true}
-              duration={800}
-              offset={-100}
-            >
-              Reviews
-            </Link>
-          </NavItem>
-          <NavItem tabIndex='0'>
-            <Link
-              activeClass='active'
-              to='contact'
-              spy={true}
-              smooth={true}
-              duration={800}
-              offset={-100}
-            >
-              Contact Us
-            </Link>
-          </NavItem>
+          <Link
+            activeClass='active'
+            to='aboutUs'
+            spy={true}
+            smooth={true}
+            duration={800}
+            offset={-100}
+          >
+            <NavItem tabIndex='0'>About Us</NavItem>
+          </Link>
+          <Link
+            activeClass='active'
+            to='serviceArea'
+            spy={true}
+            smooth={true}
+            duration={800}
+            offset={-100}
+          >
+            <NavItem tabIndex='0'>Service Area</NavItem>
+          </Link>
+          <Link
+            activeClass='active'
+            to='reviews'
+            spy={true}
+            smooth={true}
+            duration={800}
+            offset={-100}
+          >
+            <NavItem tabIndex='0'>Reviews</NavItem>
+          </Link>
+          <Link
+            activeClass='active'
+            to='contact'
+            spy={true}
+            smooth={true}
+            duration={800}
+            offset={-100}
+          >
+            <NavItem tabIndex='0'>Contact Us</NavItem>
+          </Link>
         </ul>
       </div>
     </div>
