@@ -7,6 +7,7 @@ module.exports = {
         dark: '#303030',
         logo: '#f6921e',
         light: '#f1f1f1',
+        lime: '#a3d845',
       },
     },
   },

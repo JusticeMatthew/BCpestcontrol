@@ -6,6 +6,7 @@ import ServiceArea from './components/ServiceArea';
 import Reviews from './components/Reviews';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <br />
         <Contact />
       </div>
+      <BackToTop />
       <Footer />
     </div>
   );
