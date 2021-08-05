@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div
       id='contact'
-      className='w-1/2 text-center text-light bg-dark m-6 p-6 rounded-2xl flex flex-col justify-center items-center'
+      className='lg:w-1/2 sm:w-2/3 text-center text-light bg-dark m-6 p-6 rounded-2xl flex flex-col justify-center items-center'
     >
       <h1 className='font-medium text-3xl text-center text-logo border-b-2 border-logo w-2/3'>
         Contact Us

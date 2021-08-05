@@ -25,7 +25,7 @@ export default function BackToTop() {
       <UpSquareTwoTone
         onClick={scrollToTop}
         twoToneColor='#a3d845'
-        className='text-5xl hidden fixed bottom-6 right-6 transition-all duration-200 '
+        className='text-5xl hidden fixed bottom-16 right-6 transition-all duration-200 '
         style={{ display: visible ? 'block' : 'none' }}
       />
     </>

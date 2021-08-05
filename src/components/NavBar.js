@@ -15,8 +15,8 @@ export default function TopLogo() {
 
   return (
     <div className='bg-dark flex justify-center w-full items-center fixed top-0'>
-      <div className='flex justify-evenly items-center w-3/4'>
-        <ul className='flex justify-around text-light text-center text-xl'>
+      <div className='flex justify-evenly items-center lg:w-3/4 sm:w-full'>
+        <ul className='flex justify-around text-light text-center lg:text-xl'>
           <Link
             activeClass='active'
             to='aboutUs'
@@ -35,7 +35,7 @@ export default function TopLogo() {
             duration={800}
             offset={-100}
           >
-            <NavItem tabIndex='0'>Service Area</NavItem>
+            <NavItem tabIndex='0'>Service Areas</NavItem>
           </Link>
           <Link
             activeClass='active'
@@ -66,7 +66,7 @@ export default function TopLogo() {
 const NavItem = styled.li`
   margin: 0 8px;
   border-bottom: 3px solid #303030;
-  padding: 16px;
+  padding: 8px;
 
   &:hover {
     color: #f6921e;
