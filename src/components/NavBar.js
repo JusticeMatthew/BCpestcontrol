@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import { Link, Events } from 'react-scroll';
+import { slide as Menu } from 'react-burger-menu';
 
 export default function TopLogo() {
   useEffect(() => {
@@ -71,6 +72,7 @@ const NavItem = styled.li`
   &:hover {
     color: #f6921e;
     border-bottom: 3px solid #f6921e;
+    cursor: pointer;
   }
 
   &:focus {
