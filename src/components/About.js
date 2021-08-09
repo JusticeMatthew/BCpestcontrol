@@ -32,7 +32,8 @@ export default function About() {
         Bob’s philosophy was to buy the best product, use it the way it’s
         supposed to be used and it will work! Our philosophy is to treat others
         how we want to be treated. We value the personal relationship we have
-        with our customers, and it will continue to define B&amp;C Pest Control.
+        with our customers, and it will continue to define <br />
+        B&amp;C Pest Control.
       </p>
       <br />
       <h3>- Garry &amp; JJ Reese</h3>

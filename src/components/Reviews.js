@@ -36,7 +36,7 @@ export default function Reviews() {
         “B&amp;C Pest Control walks the walk. I wasn’t due for my annual service
         until August 8 th but called in because I had seen some activity of
         late. Garry came over and addressed the issue. No charge! He said, ‘you
-        can pay me when I get here on or around August 8 th for your annual
+        can pay me when I get here on or around August 8th for your annual
         service’. When they tell you they guarantee their service, they ain’t
         lying, folks! What a breath of fresh air!”
         <br />- J.O. from Longwood
