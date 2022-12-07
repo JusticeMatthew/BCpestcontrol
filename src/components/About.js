@@ -36,6 +36,13 @@ export default function About() {
         B&amp;C Pest Control.
       </p>
       <br />
+      <p>
+        We're happy to announce we are now offering pest control in Brevard
+        County which will be serviced by Andy Anderson. Andy is a lifelong
+        resident of Melbourne and he and Garry have been friends since high
+        school.
+      </p>
+      <br />
       <h3>- Garry &amp; JJ Reese</h3>
     </div>
   );

@@ -12,11 +12,25 @@ export default function Contact() {
       </h1>
       <br />
       <p className='text-xl'>
-        <MailOutlined className='text-2xl pr-2' />
-        <a href='mailto:info@bandcpestcontrol.com'>info@bandcpestcontrol.com</a>
+        <a href='mailto:info@bandcpestcontrol.com'>
+          <MailOutlined className='text-2xl pr-2' />
+          info@bandcpestcontrol.com
+        </a>
         <br />
-        <PhoneOutlined className='text-2xl pr-2' />
-        <a href='tel:4073302644'>407-330-2644</a>
+
+        <a href='tel:4073302644'>
+          <PhoneOutlined className='text-2xl pr-2' />
+          407-330-2644
+        </a>
+      </p>
+      <br />
+      <p>
+        For Brevard County appointments call or text Andy directly at
+        <br />
+        <a href='tel:3212656877'>
+          <PhoneOutlined className='text-2xl pr-2' />
+          321-265-6877
+        </a>
       </p>
     </div>
   );

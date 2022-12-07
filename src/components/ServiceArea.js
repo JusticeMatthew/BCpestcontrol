@@ -10,6 +10,7 @@ export default function ServiceArea() {
       <h1 className='font-medium text-3xl text-center text-logo border-b-2 border-logo w-2/3'>
         Service Areas
       </h1>
+      <h2 className='pt-8 text-xl'>Our Locations</h2>
       <br />
       <div className='text-xl flex'>
         <div className='m-6'>
@@ -33,6 +34,7 @@ export default function ServiceArea() {
           <p className='p-1'>Deland</p>
         </div>
       </div>
+      <p className='my-6 text-2xl font-medium'>Brevard County</p>
     </div>
   );
 }
